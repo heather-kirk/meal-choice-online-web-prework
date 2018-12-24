@@ -3,9 +3,4 @@
 def meal_choice(meat)
   puts "meat"
 end
-meal_choice("meat")
-
-def meal_choice("vegan")
-puts "vegan"
-end
 meal_choice("vegan")
