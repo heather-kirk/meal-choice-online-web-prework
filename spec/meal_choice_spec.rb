@@ -6,6 +6,7 @@ describe '#meal_choice' do
     expect(meal_choice("vegan")).to eq("vegan")
   end
   def meal_choice(meat)
+    meat = meat
 end
 puts meal_choice(meat)
 end
