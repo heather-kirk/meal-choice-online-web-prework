@@ -5,7 +5,7 @@ def meal_choice(meat)
 end
 meal_choice("meat")
 
-meal_choice("vegan")
+def meal_choice("vegan")
 puts "vegan"
 end
 meal_choice("vegan")
