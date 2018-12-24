@@ -3,7 +3,6 @@ describe '#meal_choice' do
     expect(meal_choice).to eq("meat")
   end
     expect(meal_choice("vegan")).to eq("vegan")
-  end
   meal_choice("vegan")
 end
 
