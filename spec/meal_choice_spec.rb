@@ -4,6 +4,7 @@ describe '#meal_choice' do
   end
   def meal_choice(meat)
   end
+  meal_choice(meat)
     expect(meal_choice("vegan")).to eq("vegan")
   end
 end
